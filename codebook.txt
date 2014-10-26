@@ -1,7 +1,6 @@
 Data Dictionary
-=====================
 
-subject\n
+subject
 	1-30 representing a volunteer each
 
 activity
