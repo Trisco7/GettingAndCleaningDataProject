@@ -1,0 +1,196 @@
+Data Dictionary
+=====================
+
+subject
+	1-30 representing a volunteer each
+
+activity
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
+
+NOTE: Rest all variables are features normalized and bounded within [-1,1].
+
+The features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ 
+(prefix 't' to denote time domain signals). 
+The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ).
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain 
+Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm 
+(tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing 
+fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. 
+(Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+The set of variables that were estimated from these signals and used in tidy dataset are:
+mean(): Mean value
+std(): Standard deviation
+
+In tidy dataset, each below variable represents the average of each variable (explained above) for each activity and each subject.
+
+
+tBodyAccMeanX 
+
+tBodyAccMeanY 
+
+tBodyAccMeanZ 
+
+tBodyAccStdX 
+
+tBodyAccStdY 
+
+tBodyAccStdZ 
+
+tGravityAccMeanX 
+
+tGravityAccMeanY 
+
+tGravityAccMeanZ 
+
+tGravityAccStdX 
+
+tGravityAccStdY 
+
+tGravityAccStdZ 
+
+tBodyAccJerkMeanX 
+
+tBodyAccJerkMeanY 
+
+tBodyAccJerkMeanZ 
+
+tBodyAccJerkStdX 
+
+tBodyAccJerkStdY 
+
+tBodyAccJerkStdZ 
+
+tBodyGyroMeanX 
+
+tBodyGyroMeanY 
+
+tBodyGyroMeanZ 
+
+tBodyGyroStdX 
+
+tBodyGyroStdY 
+
+tBodyGyroStdZ 
+
+tBodyGyroJerkMeanX 
+
+tBodyGyroJerkMeanY 
+
+tBodyGyroJerkMeanZ 
+
+tBodyGyroJerkStdX 
+
+tBodyGyroJerkStdY 
+
+tBodyGyroJerkStdZ 
+
+tBodyAccMagMean 
+
+tBodyAccMagStd 
+
+tGravityAccMagMean 
+
+tGravityAccMagStd 
+
+tBodyAccJerkMagMean 
+
+tBodyAccJerkMagStd 
+
+tBodyGyroMagMean 
+
+tBodyGyroMagStd 
+
+tBodyGyroJerkMagMean 
+
+tBodyGyroJerkMagStd 
+
+fBodyAccMeanX 
+
+fBodyAccMeanY 
+
+fBodyAccMeanZ 
+
+fBodyAccStdX 
+
+fBodyAccStdY 
+
+fBodyAccStdZ 
+
+fBodyAccMeanFreqX 
+
+fBodyAccMeanFreqY 
+
+fBodyAccMeanFreqZ 
+
+fBodyAccJerkMeanX 
+
+fBodyAccJerkMeanY 
+
+fBodyAccJerkMeanZ 
+
+fBodyAccJerkStdX 
+
+fBodyAccJerkStdY 
+
+fBodyAccJerkStdZ 
+
+fBodyAccJerkMeanFreqX 
+
+fBodyAccJerkMeanFreqY 
+
+fBodyAccJerkMeanFreqZ 
+
+fBodyGyroMeanX 
+
+fBodyGyroMeanY 
+
+fBodyGyroMeanZ 
+
+fBodyGyroStdX 
+
+fBodyGyroStdY 
+
+fBodyGyroStdZ 
+
+fBodyGyroMeanFreqX 
+
+fBodyGyroMeanFreqY 
+
+fBodyGyroMeanFreqZ 
+
+fBodyAccMagMean 
+
+fBodyAccMagStd 
+
+fBodyAccMagMeanFreq 
+
+fBodyAccJerkMagMean 
+
+fBodyAccJerkMagStd 
+
+fBodyAccJerkMagMeanFreq 
+
+fBodyGyroMagMean 
+
+fBodyGyroMagStd 
+
+fBodyGyroMagMeanFreq 
+
+fBodyGyroJerkMagMean 
+
+fBodyGyroJerkMagStd 
+
+fBodyGyroJerkMagMeanFreq
