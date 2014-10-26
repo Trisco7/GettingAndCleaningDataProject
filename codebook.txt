@@ -33,8 +33,8 @@ The set of variables that were estimated from these signals and used in tidy dat
 mean(): Mean value
 std(): Standard deviation
 
-In tidy dataset, each below variable represents the average of each variable (explained above) for each activity and each subject.
-
+In tidy dataset, each below variable represents the average of each variable (explained above) for each activity 
+and each subject.
 
 tBodyAccMeanX 
 
